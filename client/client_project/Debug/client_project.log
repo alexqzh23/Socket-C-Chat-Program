@@ -1,0 +1,8 @@
+﻿D:\vs2022\vs2022\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : 对路径“c:\users\admin\desktop\mywinsockproject\client_project\debug\client_project.exe”的访问被拒绝。
+  client.cpp
+C:\Users\admin\Desktop\Mywinsockproject\client_project\client_project\curses.h(157,1): warning C4005: “MOUSE_MOVED”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wincontypes.h(103): message : 参见“MOUSE_MOVED”的前一个定义
+C:\Users\admin\Desktop\Mywinsockproject\client_project\client_project\client.cpp(135,86): warning C4047: “函数”:“DWORD”与“void *”的间接级别不同
+C:\Users\admin\Desktop\Mywinsockproject\client_project\client_project\client.cpp(135,82): warning C4024: “CreateFileW”: 形参和实参 6 的类型不同
+C:\Users\admin\Desktop\Mywinsockproject\client_project\client_project\client.cpp(171,19): warning C4477: “sprintf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“LARGE_INTEGER”
+LINK : fatal error LNK1104: 无法打开文件“C:\Users\admin\Desktop\Mywinsockproject\client_project\Debug\client_project.exe”
