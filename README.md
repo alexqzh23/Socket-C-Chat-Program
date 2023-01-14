@@ -1,4 +1,4 @@
-# Socket-C-Chat-Program
+# Socket-Chat-Program
 1. Use the structure linked list to dynamically manage the client information, which stores the client socket, data buffer, client IP and port, and use UINT_PTR data type to mark the client for differentiation, significantly improving efficiency and reducing CPU utilization.
 2. Use _beginthreadex to create multithreads that respectively accept client connection requests, send messages, and receive messages to support concurrent connections and achieve online group chat for multiple people. By setting the message boundary, the problem of package sticking and package splitting is solved.
 3. Use the curses graphic function library to draw the GUI in the terminal, and use the Panel to provide recognizable groups for it. For example, use the newwin function to create a new window to adjust and optimize the UI interface.
